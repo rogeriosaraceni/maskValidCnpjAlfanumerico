@@ -1,4 +1,4 @@
-const { CnpjAlfanumericoUtils } = require('./maskValidCnpjAlfanumerico');
+const { CnpjAlfanumericoUtils } = require('../assets/maskValidCnpjAlfanumerico');
 
 describe('CnpjAlfanumericoUtils', () => {
 
