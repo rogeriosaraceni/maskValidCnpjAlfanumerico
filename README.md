@@ -1,5 +1,7 @@
 # Mask Valid CNPJ Alfanumérico
 
+[🌐 Acesse a Demonstração Online](https://mask-valid-cnpj-alfanumerico.vercel.app/)
+
 Um projeto demonstrativo e funcional para lidar com a nova formatação do Cadastro Nacional da Pessoa Jurídica (CNPJ) no Brasil, que passará a aceitar caracteres alfanuméricos a partir de julho de 2026.
 
 ## 📝 Sobre o Projeto
