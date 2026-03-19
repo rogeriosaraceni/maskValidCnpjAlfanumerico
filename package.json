@@ -1,0 +1,23 @@
+{
+  "name": "maskvalidcnpjalfanumerico",
+  "version": "1.0.0",
+  "description": "Um projeto demonstrativo e funcional para lidar com a nova formatação do Cadastro Nacional da Pessoa Jurídica (CNPJ) no Brasil, que passará a aceitar caracteres alfanuméricos a partir de julho de 2026.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriosaraceni/maskValidCnpjAlfanumerico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogeriosaraceni/maskValidCnpjAlfanumerico/issues"
+  },
+  "homepage": "https://github.com/rogeriosaraceni/maskValidCnpjAlfanumerico#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
