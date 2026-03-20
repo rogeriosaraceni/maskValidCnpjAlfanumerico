@@ -7,49 +7,34 @@
         <title>Mask Valid Cnpj Alfanumérico</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/styles.css">
-
-        <script src="https://cdn.jsdelivr.net/npm/jquery@4.0.0/dist/jquery.min.js"></script>
-        <script src="assets/maskValidCnpjAlfanumerico.js"></script>
     </head>
 
     <body>
-        <h1>Mask Valid Cnpj Alfanumérico</h1>
-
         <div class="container mt-4">
             <div class="card shadow-sm border-0">
                 <div class="card-body bg-light">
+                    <div class="card-title h5 mb-4">Mask Valid Cnpj Alfanumérico</div>
+
                     <div class="row align-items-center text-center">
-                        <div class="col-md-5 mb-3 mb-md-0">
-                            <div class="p-3 bg-white rounded border border-primary">
-                                <span class="d-block fw-bold text-white bg-dark mb-2 p-2 rounded">CNPJ Atual</span>
-                                <h6>CNPJ Número</h6>
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <div class="p-3 bg-white rounded border">
+                                <span class="d-block fw-bold mb-2 p-2 rounded">CNPJ antigo, só números</span>
                                 <code class="h4 text-primary">NN.NNN.NNN/NNNN - NN</code>
-                                <hr class="my-2">
-                                <small class="text-muted">
-                                    <strong>(Só Números)</strong>
-                                </small>
                             </div>
                         </div>
 
-                        <div class="col-md-2 d-none d-md-block h2 text-muted">/</div>
-
-                        <div class="col-md-5 mb-3 mb-md-0">
-                            <div class="p-3 bg-white rounded border border-success border-1">
-                                <span class="d-block fw-bold text-white bg-dark mb-2 p-2 rounded">A partir de 2026</span>
-                                <h6>CNPJ Alfanumérico</h6>
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <div class="p-3 bg-white rounded border">
+                                <span class="d-block fw-bold mb-2 p-2 rounded">A partir de 2026, letras e números</span>
                                 <code class="h4 text-primary">SS.SSS.SSS/SSSS-NN</code>
-                                <hr class="my-2">
-                                <small class="text-muted">
-                                    <strong>(Letras e Números)</strong>
-                                </small>
                             </div>
                         </div>
                     </div>
 
-                    <div class="mt-4 p-3 rounded bg-white border border-info shadow-sm">
-                        <p class="mb-0 small">
-                            <strong>N:</strong> Número
-                            <strong class="ms-4">S:</strong> Letra ou Número
+                    <div class="mt-4 p-3 rounded bg-white border">
+                        <p class="mb-0 small text-center">
+                            <strong class="text-primary">N:</strong> Número
+                            <strong class="ms-4 text-primary">S:</strong> Letra ou Número
                         </p>
                     </div>
 
@@ -82,15 +67,13 @@
                                 mask-valid-input="cnpjAlfanumerico" placeholder="ss.sss.sss/ssss-nn" required />
                         </label>
 
-                        <label class="mb-2">
-                            <p class="mb-0">Mask CNPJ Alfanumérico:</p>
-                            <input type="text" name="cnpj2" class="form-control text-center"
-                                mask-valid-input="cnpjAlfanumerico" placeholder="ss.sss.sss/ssss-nn" required />
-                        </label>
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" class="btn btn-sm btn-primary">Save</button>
                     </form>
                 </div>
             </div>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@4.0.0/dist/jquery.min.js"></script>
+        <script src="assets/maskValidCnpjAlfanumerico.js"></script>
     </body>
 </html>
