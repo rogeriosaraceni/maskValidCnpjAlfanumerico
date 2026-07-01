@@ -1,5 +1,5 @@
 /*!
- * CnpjAlfanumericoUtils & Mask v1.1.0
+ * Mask Valid Cnpj Alfanumérico v1.1.0
  * Autor: Rogério Saraceni
  * Licença: MIT
  */
