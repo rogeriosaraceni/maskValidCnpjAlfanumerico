@@ -1,4 +1,4 @@
-# Mask Valid CNPJ Alfanumérico
+# Mask Valid CNPJ Alfanumérico v1.1.0
 
 [🌐 Acesse a Demonstração Online](https://mask-valid-cnpj-alfanumerico.vercel.app/)
 
@@ -17,7 +17,7 @@ Este repositório contém uma implementação em JavaScript/jQuery para aplicar 
 
 - **HTML5** / **CSS3**
 - **Bootstrap 5.3.8** (Estilização da interface de demonstração)
-- **jQuery 4.0.0** (Manipulação do DOM e eventos)
+- **jQuery 3.7.1** (Manipulação do DOM e eventos)
 - **JavaScript** (Lógica da máscara e validação)
 
 ## ⚙️ Funcionalidades e Regras de Negócio
@@ -42,13 +42,13 @@ O script principal `assets/maskValidCnpjAlfanumerico.js` aplica as seguintes reg
 2. Em seus campos de formulário, adicione o atributo `mask-valid-input="cnpjAlfanumerico"`:
 
 ```html
-<input 
-    type="text" 
-    name="cnpj" 
-    class="form-control" 
-    mask-valid-input="cnpjAlfanumerico" 
-    placeholder="ss.sss.sss/ssss-nn" 
-    required 
+<input
+    type="text"
+    name="cnpj"
+    class="form-control"
+    mask-valid-input="cnpjAlfanumerico"
+    placeholder="ss.sss.sss/ssss-nn"
+    required
 />
 ```
 

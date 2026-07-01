@@ -34,7 +34,7 @@ describe('CnpjAlfanumericoUtils', () => {
         });
 
         it('deve retornar true se tiver exatamente 14 caracteres válidos', () => {
-            expect(CnpjAlfanumericoUtils.validarPreenchimento('AB.C12.3DE/F456-78')).toBe(true);
+            expect(CnpjAlfanumericoUtils.validarPreenchimento('AB.C12.3DE/F456-55')).toBe(true);
         });
     });
 });
